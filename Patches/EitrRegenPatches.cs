@@ -80,7 +80,8 @@ internal static class EitrRegenPatches
 
     [HarmonyPostfix]
     [HarmonyPriority(Priority.VeryHigh)]
-    [HarmonyBefore("shudnal.StaminaExtended", "shudnal.MyLittleUI")]
+    [HarmonyAfter("shudnal.StaminaExtended")]
+    [HarmonyBefore("shudnal.MyLittleUI")]
     [HarmonyPatch(typeof(ItemData), nameof(ItemData.GetTooltip), typeof(ItemData), typeof(int), typeof(bool), typeof(float), typeof(int))]
     private static void ItemDrop_ItemData_GetTooltip_EitrRegenTooltip_Postfix(ItemData item, ref string __result)
     {
