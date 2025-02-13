@@ -1,4 +1,6 @@
 # EitrExtended
+This mod was inspired by `StaminaExtended` by shudnal and they have now made `EitrMagicExtended` so I am deprecating this mod.
+Go check out [EitrMagicExtended](https://thunderstore.io/c/valheim/p/shudnal/EitrMagicExtended/) for a replacement. It does everything this mod does plus more.
 Configurable increases to eitr regen from food and eitr base value from magic skills.
 
 For managing configuration setting you can use an in-game configuration manager or 
